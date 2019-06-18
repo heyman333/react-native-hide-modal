@@ -1,7 +1,7 @@
 {
   "name": "react-native-check-alert",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "typings": "index.d.ts",
   "description": "A package that provides special features with modal with checkbox options.",
   "scripts": {
