@@ -1,0 +1,47 @@
+{
+  "name": "react-native-check-alert",
+  "version": "0.1.0",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "description": "A package that provides special features with modal with checkbox options.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --config .prettierrc --write index.js index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyman333/react-native-check-alert"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-checkbox",
+    "react-native-Alert",
+    "react-native-Modal",
+    "modal",
+    "check-box",
+    "check",
+    "alert",
+    "box",
+    "react-component",
+    "ios",
+    "android",
+    "react"
+  ],
+  "author": "youngsoohan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyman333/react-native-check-alert/issues"
+  },
+  "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md",
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0",
+    "react-native": ">=0.57"
+  }
+}
