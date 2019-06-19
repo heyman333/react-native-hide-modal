@@ -8,6 +8,25 @@
 
 <hr />
 
+## install
+
+This library is based on the latest react-native version and uses the `react-native-community/async-storage` 
+based on the react-native team's recommendation
+
+Therefore, the following procedure is required to use this library.
+
+1. link async-storage [Install Guide](https://github.com/react-native-community/async-storage/tree/LEGACY#getting-started)
+
+2. npm or yarn 
+    ```shell 
+      npm install react-native-hide-modal --save
+      #or
+      yarn add react-native-hide-modal
+    ```
+
+
+
+
 ## props
 
 <table>
