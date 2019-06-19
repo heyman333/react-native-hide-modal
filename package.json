@@ -1,5 +1,5 @@
 {
-  "name": "react-native-check-alert",
+  "name": "react-native-hide-modal",
   "version": "0.1.0",
   "main": "src/index.js",
   "typings": "index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heyman333/react-native-check-alert"
+    "url": "git+https://github.com/heyman333/react-native-hide-modal"
   },
   "keywords": [
     "react-native",
@@ -31,9 +31,9 @@
   "author": "youngsoohan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heyman333/react-native-check-alert/issues"
+    "url": "https://github.com/heyman333/react-native-hide-modal/issues"
   },
-  "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md",
+  "homepage": "https://github.com/heyman333/react-native-hide-modal/blob/master/README.md",
   "dependencies": {
     "@react-native-community/async-storage": "^1.5.0"
   },
