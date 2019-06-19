@@ -72,5 +72,13 @@ It does not work if the prop does not pass properly.</td>
 
 ### screenshots
 
-<img src="img/default.gif" alt="screenshot1" height="550" />
-<img src="img/withInvisibleDuration.gif" alt="screenshot1" height="550" style="margin-left: 30px"/>
+<div style="display: flex;">
+ <img src="img/default.gif" alt="screenshot1" height="550" />
+ <img src="img/withInvisibleDuration.gif" alt="screenshot1" height="550" style="margin-left: 130px;"/>
+</div>
+
+### examples
+[Link](https://github.com/heyman333/react-native-hide-modal/blob/master/examples/App.js)
+
+### Author
+[heyman333](https://github.com/heyman333), Frontend Developer interested in React.js & React-Native 
