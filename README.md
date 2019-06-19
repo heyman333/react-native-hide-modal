@@ -4,11 +4,11 @@
 [![Platform](https://img.shields.io/badge/platform-react--native-lightgrey.svg)](http://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-native-responsive-fontSize/blob/master/LICENSE)
 
-#### Modal component that provides the ability to hide
+<strong>Modal component that provides the ability to hide</strong>
 
 <hr />
 
-### props
+## props
 
 <table>
       <thead>
@@ -70,15 +70,15 @@ It does not work if the prop does not pass properly.</td>
       </tbody>
 </table>
 
-### screenshots
+## screenshots
 
 <div style="display: flex;">
  <img src="img/default.gif" alt="screenshot1" height="550" />
  <img src="img/withInvisibleDuration.gif" alt="screenshot1" height="550" style="margin-left: 130px;"/>
 </div>
 
-### examples
+## examples
 [Link](https://github.com/heyman333/react-native-hide-modal/blob/master/examples/App.js)
 
-### Author
+## Author
 [heyman333](https://github.com/heyman333), Frontend Developer interested in React.js & React-Native 
