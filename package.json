@@ -1,6 +1,6 @@
 {
   "name": "react-native-hide-modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "typings": "index.d.ts",
   "description": "A package that provides special features with modal with checkbox options.",
