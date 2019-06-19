@@ -5,7 +5,7 @@ import * as AlertStorage from "./AlertStorage";
 export default class HideModal extends React.Component {
   static defaultProps = {
     modalVisible: false,
-    checked: false,
+    hideChecked: false,
     invisibleDuration: null,
   };
 
@@ -14,7 +14,7 @@ export default class HideModal extends React.Component {
   };
 
   async componentDidUpdate() {
-    const { modalVisible, id, invisibleDuration, checked } = this.props;
+    const { modalVisible, id, invisibleDuration, hideChecked } = this.props;
 
     if (!id) {
       console.warn("You did not pass a id in the checkAlert");
@@ -32,7 +32,7 @@ export default class HideModal extends React.Component {
     if (!modalVisible && this.state.modalVisible) {
       this.setState({ modalVisible: false });
 
-      if (checked) {
+      if (hideChecked) {
         AlertStorage.pushIds(id, invisibleDuration);
       }
     }
