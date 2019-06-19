@@ -52,7 +52,7 @@ Therefore, the following procedure is required to use this library.
           <td>string</td>
           <td>undefined</td>
           <td>true</td>
-          <td>It is used as a key value to distinguish the modal <strong>(important)</strong></td>
+          <td>It is used as a key value to distinguish the modal. And all key values must be unique <strong>(important)</strong></td>
         </tr>
         <tr>
           <th>modalProps</th>
@@ -99,5 +99,10 @@ It does not work if the prop does not pass properly.</td>
 ## examples
 [Link](https://github.com/heyman333/react-native-hide-modal/blob/master/examples/App.js)
 
-## Author
+## author
 [heyman333](https://github.com/heyman333), Frontend Developer interested in React.js & React-Native 
+
+## loadmap
+- [ ] define index.d.ts file
+- [ ] make react-hide-modal(web version using React.js)
+- [ ] set circle ci 
