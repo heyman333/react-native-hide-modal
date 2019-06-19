@@ -59,9 +59,9 @@ Therefore, the following procedure is required to use this library.
           <td>object</td>
           <td>undefined</td>
           <td>false</td>
-          <td>RN's modal property except for <b>visible</b>
+          <td>RN's modal property except for visible
             <br/>
-            <a herf="https://facebook.github.io/react-native/docs/modal#props-1" target="_blank" >Official document</a>
+            <a href="https://facebook.github.io/react-native/docs/modal#props-1" target="_blank">Official document</a>
           </td>
         </tr>
         <tr>
@@ -90,11 +90,8 @@ It does not work if the prop does not pass properly.</td>
 </table>
 
 ## screenshots
-
-<div style="display: flex;">
- <img src="img/default.gif" alt="screenshot1" height="550" />
- <img src="img/withInvisibleDuration.gif" alt="screenshot1" height="550" style="margin-left: 130px;"/>
-</div>
+<img src="img/default.gif" alt="screenshot1" height="590" />
+<img src="img/withInvisibleDuration.gif" alt="screenshot1" height="590"/>
 
 ## examples
 [Link](https://github.com/heyman333/react-native-hide-modal/blob/master/examples/App.js)
