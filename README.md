@@ -40,21 +40,21 @@ Therefore, the following procedure is required to use this library.
           <th>children</th>
           <td>component</td>
           <td>undefined</td>
-          <td>true</td>
+          <td style="text-align: center;">✔️</td>
           <td>Your modal component with check option</td>
         </tr>
         <tr>
           <th>id</th>
           <td>string</td>
           <td>undefined</td>
-          <td>true</td>
+          <td style="text-align: center;">✔️</td>
           <td>It is used as a key value to distinguish the modal. And all key values must be unique <strong>(important)</strong></td>
         </tr>
         <tr>
           <th>modalProps</th>
           <td>object</td>
           <td>undefined</td>
-          <td>false</td>
+          <td></td>
           <td>RN's modal property except for visible
             <br/>
             <a href="https://facebook.github.io/react-native/docs/modal#props-1" target="_blank">Official document</a>
@@ -62,16 +62,16 @@ Therefore, the following procedure is required to use this library.
         </tr>
         <tr>
           <th>modalVisible</th>
-          <td>string</td>
+          <td>boolean</td>
           <td>false</td>
-          <td>true</td>
+          <td style="text-align: center;">✔️</td>
           <td>Basically, determine if modal is visible or not</td>
         </tr>
         <tr>
           <th>hideChecked</th>
           <td>boolean</td>
           <td>false</td>
-          <td>true</td>
+          <td style="text-align: center;">✔️</td>
           <td>Indicates whether the user checked the checkbox.
 Module does not work if the prop doesn't pass properly</td>
         </tr>
@@ -79,7 +79,7 @@ Module does not work if the prop doesn't pass properly</td>
           <th>invisibleDuration</th>
           <td>number</td>
           <td>null</td>
-          <td>false</td>
+          <td></td>
           <td>Assuming the data is set, decide how long to hide the modal. Modal is not visible permanently unless you pass the duration <i>(millisecond)</i></td>
         </tr>
       </tbody>
