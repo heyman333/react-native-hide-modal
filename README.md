@@ -40,14 +40,14 @@ Therefore, the following procedure is required to use this library.
           <th>children</th>
           <td>component</td>
           <td>undefined</td>
-          <td style="text-align: center;">✔️</td>
+          <td align="center" width="80">✔️</td>
           <td>Your modal component with check option</td>
         </tr>
         <tr>
           <th>id</th>
           <td>string</td>
           <td>undefined</td>
-          <td style="text-align: center;">✔️</td>
+          <td align="center" width="80">✔️</td>
           <td>It is used as a key value to distinguish the modal. And all key values must be unique <strong>(important)</strong></td>
         </tr>
         <tr>
@@ -64,14 +64,14 @@ Therefore, the following procedure is required to use this library.
           <th>modalVisible</th>
           <td>boolean</td>
           <td>false</td>
-          <td style="text-align: center;">✔️</td>
+          <td align="center" width="80">✔️</td>
           <td>Basically, determine if modal is visible or not</td>
         </tr>
         <tr>
           <th>hideChecked</th>
           <td>boolean</td>
           <td>false</td>
-          <td style="text-align: center;">✔️</td>
+          <td align="center" width="80">✔️</td>
           <td>Indicates whether the user checked the checkbox.
 Module does not work if the prop doesn't pass properly</td>
         </tr>
