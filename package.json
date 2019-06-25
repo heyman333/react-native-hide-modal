@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "main": "src/index.js",
   "typings": "index.d.ts",
-  "description": "A package that provides special features with modal with checkbox options.",
+  "description": "Modal component that provides the ability to hide",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier --config .prettierrc --write index.js index.d.ts"
