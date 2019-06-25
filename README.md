@@ -10,22 +10,18 @@
 
 ## install
 
-This library is based on the latest react-native version and uses the `react-native-community/async-storage` 
-based on the react-native team's recommendation
+This library is based on the latest react-native version and uses the `react-native-community/async-storage`
 
 Therefore, the following procedure is required to use this library.
 
-1. link async-storage [Install Guide](https://github.com/react-native-community/async-storage/tree/LEGACY#getting-started)
+1. link `react-native-community/async-storage` [Go to Guide](https://github.com/react-native-community/async-storage/tree/LEGACY#getting-started)
 
-2. npm or yarn 
-    ```shell 
-      npm install react-native-hide-modal --save
-      #or
-      yarn add react-native-hide-modal
-    ```
-
-
-
+2. install node_moduels using npm or yarn
+   ```shell
+     npm install react-native-hide-modal --save
+     #or
+     yarn add react-native-hide-modal
+   ```
 
 ## props
 
@@ -45,7 +41,7 @@ Therefore, the following procedure is required to use this library.
           <td>component</td>
           <td>undefined</td>
           <td>true</td>
-          <td>Your modal view with check option</td>
+          <td>Your modal component with check option</td>
         </tr>
         <tr>
           <th>id</th>
@@ -77,7 +73,7 @@ Therefore, the following procedure is required to use this library.
           <td>false</td>
           <td>true</td>
           <td>Indicates whether the user checked the checkbox.
-It does not work if the prop does not pass properly.</td>
+Module does not work if the prop doesn't pass properly</td>
         </tr>
         <tr>
           <th>invisibleDuration</th>
@@ -90,16 +86,20 @@ It does not work if the prop does not pass properly.</td>
 </table>
 
 ## screenshots
+
 <img src="img/default.gif" alt="screenshot1" height="590" />
 <img src="img/withInvisibleDuration.gif" alt="screenshot1" height="590"/>
 
 ## examples
-[Link](https://github.com/heyman333/react-native-hide-modal/blob/master/examples/App.js)
+
+[Link](https://github.com/heyman333/react-native-hide-modal/blob/master/examples/App.js) (only code)
 
 ## author
-[heyman333](https://github.com/heyman333), Frontend Developer interested in React.js & React-Native 
+
+[heyman333](https://github.com/heyman333), Frontend Developer interested in React.js & React-Native
 
 ## loadmap
+
 - [ ] define index.d.ts file
 - [ ] make react-hide-modal(web version using React.js)
-- [ ] set circle ci 
+- [ ] set circle ci

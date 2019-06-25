@@ -1,7 +1,7 @@
 import React, { Component } from "./node_modules/react";
 import { TouchableOpacity, StyleSheet, Text, View, Image } from "react-native";
 
-import { ic_check_box, ic_check_box_outline_blank } from "./hidemodal/img";
+import { ic_check_box, ic_check_box_outline_blank } from "./img";
 import HideModal from "./hidemodal";
 
 export default class App extends Component {
@@ -9,8 +9,8 @@ export default class App extends Component {
     modalVisible: false,
   };
 
-  toggleModal = modalVisible => () => {
-    this.setState({ modalVisible });
+  toggleModal = () => {
+    this.setState({ modalVisible: !this.state.modalVisible });
   };
 
   toggleChecked = () => {
@@ -24,7 +24,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <TouchableOpacity onPress={this.toggleModal(true)}>
+        <TouchableOpacity onPress={this.toggleModal}>
           <Text>modal with invisibleDuration</Text>
         </TouchableOpacity>
         <HideModal
@@ -58,7 +58,7 @@ export default class App extends Component {
               <View style={styles.buttonView}>
                 <TouchableOpacity
                   hitSlop={{ top: 5, right: 5, bottom: 5, left: 5 }}
-                  onPress={this.toggleModal(false)}
+                  onPress={this.toggleModal}
                 >
                   <Text>Confirm</Text>
                 </TouchableOpacity>
