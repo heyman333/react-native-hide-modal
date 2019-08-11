@@ -10,7 +10,7 @@ export default class HideModal extends React.Component {
   };
 
   state = {
-    modalVisible: false,
+    modalVisible: this.props.modalVisible,
   };
 
   async componentDidUpdate() {
