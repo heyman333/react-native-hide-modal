@@ -1,6 +1,6 @@
 {
   "name": "react-native-hide-modal",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "src/index.js",
   "typings": "index.d.ts",
   "description": "Modal component that provides the ability to hide",
