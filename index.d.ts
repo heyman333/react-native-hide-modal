@@ -3,7 +3,7 @@ declare module "react-native-hide-modal" {
   import { ModalProps } from "react-native";
 
   interface Props {
-    children: React.Component;
+    children: ReactElement;
     id: string;
     modalProps?: ModalProps;
     modalVisible: boolean;
