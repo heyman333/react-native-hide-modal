@@ -100,6 +100,6 @@ Module does not work if the prop doesn't pass properly</td>
 
 ## loadmap
 
-- [ ] define index.d.ts file
+- [X] define index.d.ts file
 - [ ] make react-hide-modal(web version using React.js)
 - [ ] set circle ci
